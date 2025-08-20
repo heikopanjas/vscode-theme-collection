@@ -7,8 +7,9 @@ This directory contains GitHub Actions workflows for the Ultralove Theme Collect
 Automatically builds VSIX packages for the VS Code theme extension.
 
 ### Triggers
-- Push to `main` or `develop` branches
-- Pull requests to `main`
+
+- Push to `main` or any `feature/**` branches
+- Pull requests to `main` or any `feature/**` branches
 - Git tags starting with `v` (e.g., `v0.1.0`, `v1.2.3`)
 - Manual workflow dispatch
 

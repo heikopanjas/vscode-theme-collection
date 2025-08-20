@@ -5,7 +5,7 @@
 .github/**
 .copilot-instructions.md
 
-# Build outputs  
+# Build outputs
 dist/**
 out/**
 node_modules/**
