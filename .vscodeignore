@@ -1,0 +1,43 @@
+# Development files
+.vscode/**
+.vscode-test/**
+.gitignore
+.github/**
+.copilot-instructions.md
+
+# Build outputs  
+dist/**
+out/**
+node_modules/**
+
+# Test files
+test/**
+tests/**
+*.test.*
+*.spec.*
+
+# Documentation (keep README.md)
+CHANGELOG.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/**
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime
+.env
+.env.*
+
+# Backup files
+*.backup
+*.bak
+*.old
