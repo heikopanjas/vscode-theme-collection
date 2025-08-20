@@ -75,12 +75,11 @@ jobs:
 
             - name: Create Release (on tag)
               if: startsWith(github.ref, 'refs/tags/v')
-              uses: actions/create-release@v1
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              id: create_release
+              uses: softprops/action-gh-release@v2
               with:
-                  tag_name: ${{ github.ref }}
-                  release_name: Release ${{ github.ref }}
+                  tag_name: ${{ github.ref_name }}
+                  name: Release ${{ github.ref_name }}
                   body: |
                       ## Ultralove Theme Collection ${{ steps.package.outputs.version }}
 
@@ -96,16 +95,6 @@ jobs:
                       ```
 
                       Or install directly from the VS Code Extensions marketplace.
+                  files: ./dist/${{ steps.package.outputs.filename }}
                   draft: false
                   prerelease: false
-
-            - name: Upload Release Asset (on tag)
-              if: startsWith(github.ref, 'refs/tags/v')
-              uses: actions/upload-release-asset@v1
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              with:
-                  upload_url: ${{ steps.create_release.outputs.upload_url }}
-                  asset_path: ./dist/${{ steps.package.outputs.filename }}
-                  asset_name: ${{ steps.package.outputs.filename }}
-                  asset_content_type: application/zip
