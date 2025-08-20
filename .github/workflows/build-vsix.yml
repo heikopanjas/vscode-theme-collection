@@ -52,6 +52,8 @@ jobs:
 
             - name: Build VSIX package
               run: |
+                  # Create dist directory if it doesn't exist
+                  mkdir -p ./dist
                   # Create VSIX package
                   vsce package --out ./dist/
 
