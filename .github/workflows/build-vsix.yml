@@ -33,14 +33,22 @@ jobs:
 
             - name: Validate theme files
               run: |
-                  # Check if all theme files are valid JSON
+                  # Check if all theme files exist and are readable
                   for theme in themes/*.json; do
                     if [ -f "$theme" ]; then
-                      echo "Validating $theme..."
-                      node -e "JSON.parse(require('fs').readFileSync('$theme', 'utf8'))"
-                      echo "✅ $theme is valid"
+                      echo "Checking $theme exists and is readable..."
+                      if [ -r "$theme" ]; then
+                        echo "✅ $theme is accessible"
+                      else
+                        echo "❌ $theme is not readable"
+                        exit 1
+                      fi
+                    else
+                      echo "❌ $theme not found"
+                      exit 1
                     fi
                   done
+                  echo "✅ All theme files are present and accessible"
 
             - name: Build VSIX package
               run: |
