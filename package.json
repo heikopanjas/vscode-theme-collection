@@ -48,5 +48,13 @@
         "name": "Ultralove"
     },
     "license": "MIT",
-    "publisher": "ultralove"
+    "publisher": "ultralove",
+    "scripts": {
+        "build": "vsce package --out ./dist/",
+        "install-local": "code --install-extension ./dist/*.vsix",
+        "validate": "vsce package --out ./dist/ --no-dependencies"
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^2.19.0"
+    }
 }
