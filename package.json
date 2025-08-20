@@ -1,0 +1,37 @@
+{
+  "name": "ultralove-black-theme",
+  "displayName": "Ultralove Black Theme",
+  "description": "A sophisticated dark theme for VS Code",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "black",
+    "ultralove",
+    "color-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ultralove Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ultralove-black-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ultralove/vscode-theme"
+  },
+  "author": {
+    "name": "Ultralove"
+  },
+  "license": "MIT",
+  "publisher": "ultralove"
+}
