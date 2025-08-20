@@ -52,10 +52,8 @@ jobs:
 
             - name: Build VSIX package
               run: |
-                  # Create dist directory if it doesn't exist
-                  mkdir -p ./dist
                   # Create VSIX package
-                  vsce package --out ./dist/
+                  vsce package
 
             - name: Get package info
               id: package
@@ -70,7 +68,7 @@ jobs:
               uses: actions/upload-artifact@v4
               with:
                   name: ${{ steps.package.outputs.name }}-${{ steps.package.outputs.version }}
-                  path: ./dist/*.vsix
+                  path: ./*.vsix
                   retention-days: 30
 
             - name: Create Release (on tag)
@@ -95,6 +93,6 @@ jobs:
                       ```
 
                       Or install directly from the VS Code Extensions marketplace.
-                  files: ./dist/${{ steps.package.outputs.filename }}
+                  files: ./${{ steps.package.outputs.filename }}
                   draft: false
                   prerelease: false
