@@ -12,7 +12,9 @@
   "keywords": [
     "theme",
     "dark",
+    "light",
     "black",
+    "white",
     "ultralove",
     "color-theme"
   ],
@@ -22,6 +24,11 @@
         "label": "Ultralove Black",
         "uiTheme": "vs-dark",
         "path": "./themes/ultralove-black-color-theme.json"
+      },
+      {
+        "label": "Ultralove White",
+        "uiTheme": "vs",
+        "path": "./themes/ultralove-white-color-theme.json"
       }
     ]
   },
