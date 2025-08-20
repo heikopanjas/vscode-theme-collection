@@ -10,11 +10,15 @@ A sophisticated dark theme inspired by the GitHub Dark Colorblind theme with dee
 ### Ultralove White
 A clean light theme based on GitHub Light Colorblind with crisp whites and high contrast for bright environment coding.
 
+### Ultralove Blue
+A calming blue-tinted dark theme with blue backgrounds and accents, perfect for a soothing coding experience in low-light environments.
+
 ## Features
 
-- **Multiple Variants**: Black and White themes for different lighting conditions
+- **Multiple Variants**: Black, White, and Blue themes for different lighting conditions and preferences
 - **Deep Black Background**: Ultra-dark editor background (#010409) for reduced eye strain in low-light environments
 - **Clean White Background**: Pure white editor background (#ffffff) for bright, high-contrast environments
+- **Calming Blue Background**: Blue-tinted editor background (#0a0e1a) for a soothing coding experience
 - **High Contrast**: Carefully balanced contrast ratios for excellent readability across all variants
 - **Comprehensive Coverage**: Full theming of all VS Code UI elements including editor, sidebar, terminal, and panels
 - **Syntax Highlighting**: Rich color palette for code syntax highlighting across multiple programming languages
@@ -42,7 +46,17 @@ The light theme uses a clean color palette based on GitHub's light design system
 - **Text Primary**: `#1f2328` - High contrast black for main text
 - **Text Secondary**: `#656d76` - Muted for secondary text
 
-### Syntax Colors (Both Themes)
+### Ultralove Blue
+
+The blue theme uses a calming blue-tinted color palette for a soothing coding experience:
+
+- **Primary Background**: `#0a0e1a` - Deep blue-black for main editor
+- **Secondary Background**: `#1a202c` - Slightly lighter blue for tabs and headers
+- **Accent Color**: `#3182ce` - Blue accent for active elements
+- **Text Primary**: `#e2e8f0` - High contrast white for main text
+- **Text Secondary**: `#a0aec0` - Muted for secondary text
+
+### Syntax Colors (All Themes)
 - **Keywords**: Red tones for language keywords
 - **Strings**: Blue tones for string literals
 - **Functions**: Purple tones for function names
@@ -74,6 +88,9 @@ You can customize specific colors by adding overrides to your VS Code settings:
     },
     "[Ultralove White]": {
       "editor.background": "#f8f9fa"
+    },
+    "[Ultralove Blue]": {
+      "editor.background": "#0c1221"
     }
   }
 }
