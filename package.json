@@ -1,8 +1,8 @@
 {
-    "name": "ultralove-theme-collection",
-    "displayName": "Ultralove Theme Collection",
+    "name": "super-theme-collection",
+    "displayName": "Super Theme Collection",
     "description": "A sophisticated collection of VS Code themes featuring Black, White, and Blue variants for different coding environments",
-    "version": "1.0.0",
+    "version": "1.0.7",
     "engines": {
         "vscode": "^1.74.0"
     },
@@ -16,7 +16,6 @@
         "black",
         "white",
         "blue",
-        "ultralove",
         "color-theme",
         "calming",
         "collection"
@@ -24,31 +23,31 @@
     "contributes": {
         "themes": [
             {
-                "label": "Ultralove Black",
+                "label": "Super Black",
                 "uiTheme": "vs-dark",
-                "path": "./themes/ultralove-black-color-theme.json"
+                "path": "./themes/super-black-color-theme.json"
             },
             {
-                "label": "Ultralove White",
+                "label": "Super White",
                 "uiTheme": "vs",
-                "path": "./themes/ultralove-white-color-theme.json"
+                "path": "./themes/super-white-color-theme.json"
             },
             {
-                "label": "Ultralove Blue",
+                "label": "Super Blue",
                 "uiTheme": "vs-dark",
-                "path": "./themes/ultralove-blue-color-theme.json"
+                "path": "./themes/super-blue-color-theme.json"
             }
         ]
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ultralove/vscode-theme"
+        "url": "https://github.com/heikopanjas/vscode-theme-collection"
     },
     "author": {
-        "name": "Ultralove"
+        "name": "Heiko Panjas"
     },
     "license": "MIT",
-    "publisher": "ultralove",
+    "publisher": "heikopanjas",
     "scripts": {
         "build": "vsce package --out ./dist/",
         "install-local": "code --install-extension ./dist/*.vsix",

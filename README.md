@@ -1,16 +1,23 @@
-# Ultralove Theme Collection
+# Super Theme Collection
 
-A sophisticated collection of VS Code themes featuring carefully crafted color palettes for different coding environments and preferences.
+A sophisticated collection of VS Code themes featuring carefully crafted color palet## Changelog
+
+### 1.0.7
+- Initial release
+- Complete theme coverage for all VS Code UI elements
+- Syntax highlighting for major programming languages
+- Error Lens extension support
+- Git integration colorsdifferent coding environments and preferences.
 
 ## Available Themes
 
-### Ultralove Black
+### Super Black
 A sophisticated dark theme inspired by the GitHub Dark Colorblind theme with deep black backgrounds for comfortable low-light coding.
 
-### Ultralove White
+### Super White
 A clean light theme based on GitHub Light Colorblind with crisp whites and high contrast for bright environment coding.
 
-### Ultralove Blue
+### Super Blue
 A calming blue-tinted dark theme with blue backgrounds and accents, perfect for a soothing coding experience in low-light environments.
 
 ## Features
@@ -28,7 +35,7 @@ A calming blue-tinted dark theme with blue backgrounds and accents, perfect for 
 
 ## Color Palettes
 
-### Ultralove Black
+### Super Black
 The dark theme uses a refined color palette based on GitHub's dark design system:
 
 - **Primary Background**: `#010409` - Deep black for main editor
@@ -37,7 +44,7 @@ The dark theme uses a refined color palette based on GitHub's dark design system
 - **Text Primary**: `#c9d1d9` - High contrast white for main text
 - **Text Secondary**: `#8b949e` - Muted for secondary text
 
-### Ultralove White
+### Super White
 The light theme uses a clean color palette based on GitHub's light design system:
 
 - **Primary Background**: `#ffffff` - Pure white for main editor
@@ -46,7 +53,7 @@ The light theme uses a clean color palette based on GitHub's light design system
 - **Text Primary**: `#1f2328` - High contrast black for main text
 - **Text Secondary**: `#656d76` - Muted for secondary text
 
-### Ultralove Blue
+### Super Blue
 
 The blue theme uses a calming blue-tinted color palette for a soothing coding experience:
 
@@ -69,12 +76,12 @@ The blue theme uses a calming blue-tinted color palette for a soothing coding ex
 1. Clone this repository
 2. Copy the theme files to your VS Code extensions directory
 3. Open VS Code and go to Preferences > Color Theme
-4. Select "Ultralove Black" or "Ultralove White" from the list
+4. Select "Super Black", "Super White", or "Super Blue" from the list
 
 ### Development Installation
 1. Open this project in VS Code
 2. Press `F5` to launch Extension Development Host
-3. In the new window, select "Ultralove Black" or "Ultralove White" theme
+3. In the new window, select "Super Black", "Super White", or "Super Blue" theme
 
 ## Customization
 
@@ -83,13 +90,13 @@ You can customize specific colors by adding overrides to your VS Code settings:
 ```json
 {
   "workbench.colorCustomizations": {
-    "[Ultralove Black]": {
+    "[Super Black]": {
       "editor.background": "#000000"
     },
-    "[Ultralove White]": {
+    "[Super White]": {
       "editor.background": "#f8f9fa"
     },
-    "[Ultralove Blue]": {
+    "[Super Blue]": {
       "editor.background": "#0c1221"
     }
   }
@@ -110,7 +117,7 @@ MIT License - see LICENSE file for details.
 
 ## Changelog
 
-### 0.1.0
+### 1.0.7
 - Initial release
 - Complete theme coverage for all VS Code UI elements
 - Syntax highlighting for major programming languages

@@ -4,9 +4,9 @@
 This is a VS Code theme development project for creating a family of custom Visual Studio Code color themes. The project focuses on developing cohesive, aesthetically pleasing themes that enhance the coding experience across different environments and preferences.
 
 ### Theme Variants Planned
-- **Ultralove Black** (Complete) - Ultra-dark theme with deep black backgrounds (#010409) for low-light coding
-- **Ultralove White** (Complete) - Clean light theme with high contrast for bright environments
-- **Ultralove Blue** (Complete) - Blue-tinted theme for a calming coding experience
+- **Super Black** (Complete) - Ultra-dark theme with deep black backgrounds (#010409) for low-light coding
+- **Super White** (Complete) - Clean light theme with high contrast for bright environments
+- **Super Blue** (Complete) - Blue-tinted theme for a calming coding experience
 
 ### Current Status
 All three theme variants are implemented and functional. The extension is ready for testing, packaging, and potential marketplace publication.
@@ -20,9 +20,9 @@ vscode-theme/
 ├── .copilot-instructions.md             # AI assistant guidelines
 ├── .gitignore                           # Git ignore file with VSIX exclusions
 ├── themes/                              # Theme definition files
-│   ├── ultralove-black-color-theme.json  # Complete - Ultra-dark theme
-│   ├── ultralove-white-color-theme.json  # Complete - Light theme
-│   └── ultralove-blue-color-theme.json   # Complete - Blue-tinted theme
+│   ├── super-black-color-theme.json  # Complete - Ultra-dark theme
+│   ├── super-white-color-theme.json  # Complete - Light theme
+│   └── super-blue-color-theme.json   # Complete - Blue-tinted theme
 ├── .github/                             # GitHub configuration
 │   └── workflows/                       # GitHub Actions workflows
 │       └── build-vsix.yml               # Automated VSIX build workflow
@@ -54,7 +54,7 @@ vscode-theme/
 - **Error/Warning Colors**: Diagnostic highlighting and problem indicators
 
 ### File Naming Conventions
-- Theme files: `ultralove-[variant]-color-theme.json`
+- Theme files: `super-[variant]-color-theme.json`
 - Variants: `black`, `white`, `blue`
 - Use kebab-case for file names
 - Maintain consistent naming across all theme variants
@@ -67,7 +67,7 @@ vscode-theme/
 - **Accessibility**: Ensure all variants meet WCAG contrast requirements
 
 ### Current Theme Specifications
-**Ultralove Black Theme:**
+**Super Black Theme:**
 - Editor background: #010409 (ultra-dark black)
 - Foreground: #c9d1d9 (light gray)
 - Cursor: #58a6ff (blue accent)
@@ -75,12 +75,12 @@ vscode-theme/
 - Selection: #264f78
 - Type: vs-dark
 
-**Ultralove White Theme:**
+**Super White Theme:**
 - Editor background: #ffffff (pure white)
 - Type: vs (light theme)
 - High contrast design for bright environments
 
-**Ultralove Blue Theme:**
+**Super Blue Theme:**
 - Blue-tinted color scheme
 - Type: vs-dark
 - Calming blue accents throughout interface
@@ -107,8 +107,8 @@ vscode-theme/
 - **Contribution Points**: Use `themes` contribution point in package.json
 - **Categories**: Use "Themes" category for marketplace
 - **Keywords**: Include relevant theme-related keywords for discoverability
-- **Extension Name**: "ultralove-theme-collection" with display name "Ultralove Theme Collection"
-- **Version**: Currently at 0.1.0, ready for initial release
+- **Extension Name**: "super-theme-collection" with display name "Super Theme Collection"
+- **Version**: Currently at 1.0.7, ready for initial release
 
 ### Next Steps & Publishing
 1. **Testing**: Use F5 to test themes in Extension Development Host
@@ -191,13 +191,21 @@ When the user requests to "commit the latest changes" or similar:
 7. Prepare for marketplace publication
 
 ### Theme Development Roadmap
-- [x] Ultralove Black - Core dark theme
-- [ ] Ultralove White - Light variant
-- [ ] Ultralove Blue - Blue-tinted variant
+- [x] Super Black - Core dark theme
+- [x] Super White - Light variant
+- [x] Super Blue - Blue-tinted variant
 - [ ] Cross-variant consistency testing
 - [ ] Accessibility compliance verification
 - [ ] Marketplace assets and documentation
 
 ---
-*Last updated: August 20, 2025*
+*Last updated: September 17, 2025*
 *Update these instructions as the project evolves and new requirements emerge.*
+
+## Recent Updates & Decisions
+
+### September 17, 2025
+- **Theme Name Update**: Changed from "Ultralove" to "Super" throughout documentation to match actual workspace implementation
+- **Version Correction**: Updated version reference from 0.1.0 to 1.0.7 to reflect current package.json
+- **Roadmap Status**: Marked Super White and Super Blue as complete since all three theme files exist in the workspace
+- **Reasoning**: Aligned documentation with actual codebase state for consistency and accuracy
