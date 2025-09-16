@@ -108,7 +108,7 @@ vscode-theme/
 - **Categories**: Use "Themes" category for marketplace
 - **Keywords**: Include relevant theme-related keywords for discoverability
 - **Extension Name**: "super-theme-collection" with display name "Super Theme Collection"
-- **Version**: Currently at 1.0.7, ready for initial release
+- **Version**: Currently at 1.0.10, ready for initial release
 
 ### Next Steps & Publishing
 1. **Testing**: Use F5 to test themes in Extension Development Host
@@ -203,6 +203,12 @@ When the user requests to "commit the latest changes" or similar:
 *Update these instructions as the project evolves and new requirements emerge.*
 
 ## Recent Updates & Decisions
+
+### September 17, 2025 - Version 1.0.10 Update
+- **Version Bump**: Updated version from 1.0.9 to 1.0.10 across package.json, README.md, and documentation
+- **Changelog Addition**: Added version 1.0.10 entry to README with workflow improvement notes
+- **Documentation Updates**: Updated workflow README examples to use v1.0.10
+- **Reasoning**: Preparing for release with modernized GitHub Actions workflow and fixed permissions
 
 ### September 17, 2025
 - **Theme Name Update**: Changed from "Ultralove" to "Super" throughout documentation to match actual workspace implementation

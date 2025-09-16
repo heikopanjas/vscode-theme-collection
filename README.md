@@ -117,7 +117,15 @@ MIT License - see LICENSE file for details.
 
 ## Changelog
 
+### 1.0.10
+
+- Updated version for workflow improvements
+- Modernized GitHub Actions workflow with GitHub CLI
+- Fixed release creation permissions issues
+- Updated documentation and version references
+
 ### 1.0.7
+
 - Initial release
 - Complete theme coverage for all VS Code UI elements
 - Syntax highlighting for major programming languages
