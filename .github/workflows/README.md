@@ -1,6 +1,6 @@
 # GitHub Actions Workflow
 
-This directory contains GitHub Actions workflows for the Ultralove Theme Collection.
+This directory contains GitHub Actions workflows for the Super Theme Collection.
 
 ## build-vsix.yml
 
@@ -10,7 +10,7 @@ Automatically builds VSIX packages for the VS Code theme extension.
 
 - Push to `main` or any `feature/**` branches
 - Pull requests to `main` or any `feature/**` branches
-- Git tags starting with `v` (e.g., `v0.1.0`, `v1.2.3`)
+- Git tags starting with `v` (e.g., `v1.0.8`, `v1.2.3`)
 - Manual workflow dispatch
 
 ### What it does
@@ -31,8 +31,8 @@ git push origin main
 #### For releases:
 ```bash
 # Update version in package.json first
-git tag v0.1.0
-git push origin v0.1.0
+git tag v1.0.8
+git push origin v1.0.8
 # Check Releases section for downloadable VSIX
 ```
 
