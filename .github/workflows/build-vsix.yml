@@ -74,6 +74,7 @@ jobs:
                   retention-days: 30
 
             - name: Create Release (on tag)
+              id: create_release
               if: startsWith(github.ref, 'refs/tags/v')
               uses: actions/create-release@v1
               env:
@@ -82,12 +83,12 @@ jobs:
                   tag_name: ${{ github.ref }}
                   release_name: Release ${{ github.ref }}
                   body: |
-                      ## Ultralove Theme Collection ${{ steps.package.outputs.version }}
+                      ## Super Theme Collection ${{ steps.package.outputs.version }}
 
                       ### What's Included
-                      - Ultralove Black Theme - Ultra-dark theme for low-light coding
-                      - Ultralove White Theme - Clean light theme for bright environments
-                      - Ultralove Blue Theme - Calming blue-tinted theme
+                      - Super Black Theme - Ultra-dark theme for low-light coding
+                      - Super White Theme - Clean light theme for bright environments
+                      - Super Blue Theme - Calming blue-tinted theme
 
                       ### Installation
                       Download the `.vsix` file and install it using:
