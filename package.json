@@ -2,7 +2,7 @@
     "name": "ultralove-theme-collection",
     "displayName": "Ultralove Theme Collection",
     "description": "A sophisticated collection of VS Code themes featuring Black, White, and Blue variants for different coding environments",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.74.0"
     },
@@ -48,5 +48,10 @@
         "name": "Ultralove"
     },
     "license": "MIT",
-    "publisher": "ultralove"
+    "publisher": "ultralove",
+    "scripts": {
+        "build": "vsce package --out ./dist/",
+        "install-local": "code --install-extension ./dist/*.vsix",
+        "validate": "vsce package --out ./dist/ --no-dependencies"
+    }
 }
