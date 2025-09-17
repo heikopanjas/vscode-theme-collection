@@ -117,6 +117,12 @@ MIT License - see LICENSE file for details.
 
 ## Changelog
 
+### 1.1.0
+
+- Version bump to 1.1.0
+- Preparing for color theme improvements
+- Updated project documentation
+
 ### 1.0.10
 
 - Updated version for workflow improvements
