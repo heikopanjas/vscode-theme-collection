@@ -108,12 +108,12 @@ vscode-theme/
 - **Categories**: Use "Themes" category for marketplace
 - **Keywords**: Include relevant theme-related keywords for discoverability
 - **Extension Name**: "super-theme-collection" with display name "Super Theme Collection"
-- **Version**: Currently at 1.1.1, ready for initial release
+- **Version**: Currently at 1.1.2, ready for initial release
 
 ### Next Steps & Publishing
 1. **Testing**: Use F5 to test themes in Extension Development Host
-2. **Icon Creation**: Add extension icon (icon.png) for marketplace
-3. **Screenshots**: Create theme preview images for marketplace listing
+2. **Icon Creation**: ✅ Extension icon added (super-themes.png)
+3. **Screenshots**: ✅ Theme preview images added to README
 4. **CHANGELOG**: Document version history and changes
 5. **Automated Releases**: Create git tags to trigger automated releases with VSIX files
 6. **Manual Publishing**: Use `vsce publish` to publish to marketplace (if desired)
@@ -203,6 +203,13 @@ When the user requests to "commit the latest changes" or similar:
 *Update these instructions as the project evolves and new requirements emerge.*
 
 ## Recent Updates & Decisions
+
+### September 17, 2025 - Version 1.1.2 Update
+- **Version Bump**: Updated version from 1.1.1 to 1.1.2 across package.json, README.md, and copilot instructions
+- **Extension Icon**: Added super-themes.png as extension icon for marketplace presentation
+- **Changelog Addition**: Added version 1.1.2 entry to README with icon addition notes
+- **Documentation Updates**: Updated Next Steps to mark icon creation as complete
+- **Reasoning**: Completing marketplace readiness with custom branding on doc/add-icon branch
 
 ### September 17, 2025 - Version 1.1.1 Update
 - **Version Bump**: Updated version from 1.1.0 to 1.1.1 across package.json, README.md, and copilot instructions

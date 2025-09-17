@@ -115,6 +115,11 @@ MIT License - see LICENSE file for details.
 
 ## Changelog
 
+### 1.1.2
+
+- Added extension icon (super-themes.png)
+- Enhanced marketplace presentation with custom branding
+
 ### 1.1.1
 
 - Added screenshots to README documentation
