@@ -1,13 +1,8 @@
 # Super Theme Collection
 
-A sophisticated collection of VS Code themes featuring carefully crafted color palet## Changelog
+A sophisticated collection of VS Code themes featuring carefully crafted color palettes.
 
-### 1.0.7
-- Initial release
-- Complete theme coverage for all VS Code UI elements
-- Syntax highlighting for major programming languages
-- Error Lens extension support
-- Git integration colorsdifferent coding environments and preferences.
+## Changelog
 
 ## Available Themes
 
@@ -105,17 +100,26 @@ You can customize specific colors by adding overrides to your VS Code settings:
 
 ## Screenshots
 
-*Screenshots will be added here*
+### Super Black Theme
+![Super Black Theme](docs/images/super.themes-black.png)
 
-## Contributing
+### Super White Theme
+![Super White Theme](docs/images/super-themes-white.png)
 
-Contributions are welcome! Please feel free to submit issues and pull requests.
+### Super Blue Theme
+![Super Blue Theme](docs/images/super-themes-blue.png)
 
 ## License
 
 MIT License - see LICENSE file for details.
 
 ## Changelog
+
+### 1.1.1
+
+- Added screenshots to README documentation
+- Removed Contributing section for cleaner documentation
+- Documentation improvements and cleanup
 
 ### 1.1.0
 
